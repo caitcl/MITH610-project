@@ -2,10 +2,10 @@
 <html lang="en">
 
   <head>
-    <title>My project</title>
+    <title>Exercise 1, MITH610: Critical Topics in Digital Studies</title>
     <meta charset="utf-8">
-    <meta name="description" content="My project">
-    <meta name="author" content="Me">
+    <meta name="description" content="TEI and analysis of two UMD student newspaper articles from 1969">
+    <meta name="author" content="Caitlin Christian-Lamb">
     <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
     <link rel="stylesheet" href="css/style.css" media="all" />
     <script src="js/CETEI.js"></script>
@@ -13,12 +13,12 @@
 
   <body>
     <h1>My project</h1>
-    <div id="description">My 500 words.</div>
+    <div id="description">500 words</div>
     <div id="article1"></div>
     <div id="article2"></div>
     <script>
       var c1 = new CETEI()
-      c1.getHTML5("data/1996-04-26-page4-Bigotry-Has-No-Place.xml", function(data) {
+      c1.getHTML5("data/1969-02-12-page1-3-BSU-outburst-jolts-fiery-cabinet-session.xml", function(data) {
        document.getElementById("article1").appendChild(data)
       })
       var c2 = new CETEI()

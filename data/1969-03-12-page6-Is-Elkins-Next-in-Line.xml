@@ -10,133 +10,170 @@
         <author><persName xml:id="CCL">Caitlin Christian-Lamb</persName></author>
         <respStmt>
         <resp>Encoded by</resp><name ref="CCL">Caitlin Christian-Lamb</name></respStmt>
-      </titleStmt>
 
-      <publicationStmt>
-        <publisher>
-          <orgName>African American History, Culture, and Digital Humanities (AADHum)</orgName>
-        </publisher>
-        <pubPlace>College Park, MD</pubPlace>
-        <date>March 6, 2018</date>
-        </publicationStmt>
+
+                <respStmt>
+                <resp>Student newspapers archived and provided by</resp>
+                <orgName xml:id="UA">University Archives
+                <placeName>University of Maryland
+                <settlement>College Park</settlement>
+                <region>Maryland</region>
+                </placeName>
+                </orgName>
+                </respStmt>
+
+                <respStmt>
+                <resp>TEI template and assistance provided by</resp>
+                <persName xml:id="RV">Raffaele Viglianti</persName>
+                </respStmt>
+
+                <respStmt>
+                <resp>TEI template and assistance provided by</resp>
+                <persName xml:id="JL">Jessica Lu</persName>
+                </respStmt>
+
+              </titleStmt>
+
+              <publicationStmt>
+                <publisher>
+                  <orgName>Digital Studies in the Arts and Humanities (DSAH) at the University of Maryland</orgName>
+                </publisher>
+                <pubPlace>College Park, MD</pubPlace>
+                <date>March 15, 2018</date>
+                </publicationStmt>
 
       <sourceDesc>
+
+        <listBibl>
+            <biblStruct>
+                <analytic>
+                    <title type="main">Is Elkins Next in Line?</title>
+                    <author>
+                        <persName xml:id="IA">Ira Allen</persName>
+                    </author>
+                </analytic>
+                <monogr>
+                    <title level="j">The Diamondback</title>
+                    <imprint>
+                        <publisher>Maryland Media Inc.</publisher>
+                        <pubPlace>
+                            <region>College Park</region>
+                            <settlement>Maryland</settlement>
+                        </pubPlace>
+                        <date when="1969-03-12">March 12, 1969</date>
+                    </imprint>
+                    <biblScope unit="volume">61</biblScope>
+                    <biblScope unit="number">95</biblScope>
+                    <biblScope unit="page">6</biblScope>
+                </monogr>
+            </biblStruct>
+
+            <bibl>
+                <title>Put title of project here</title>
+                <author>
+                    <persName ref="#CCL">Caitlin Christian-Lamb</persName>
+                </author>
+                <note>The digitized and OCR'd version of this article can be found at https://www.lib.umd.edu/univarchives/student-newspapers/id/15ef2cfb-614e-48bf-a99a-a6fbf97db0c0</note>
+            </bibl>
         <bibl>
           <title><orgName>The Diamondback</orgName></title>
           <publisher><orgName>University of Maryland</orgName></publisher>
           <pubPlace>College Park, MD</pubPlace>
           <date>March 12, 1969</date>
         </bibl>
-        <msDesc>
-
-          <msIdentifier>
-            <settlement>College Park</settlement>
-            <repository>University of Maryland University Archives</repository>
-            <idno>https://www.lib.umd.edu/univarchives/student-newspapers/id/15ef2cfb-614e-48bf-a99a-a6fbf97db0c0?"</idno>
-          </msIdentifier>
-
-          <msContents>
-            <msItem>
-              <author>Ira Allen</author>
-              <title>Is Elkins Next to Go?</title>
-            </msItem>
-          </msContents>
-        </msDesc>
-
-      </sourceDesc>
+        </listBibl>
+        </sourceDesc>
       </fileDesc>
 </teiHeader>
 
 <text>
 <body>
-  <div>
+  <div rend="center">
 <head>Is Elkins next in line?</head>
 </div>
 
+<div rend="center">
+            <byline>By <persName ref="#IA">Ira Allen</persName></byline>
+        </div>
+
 <div>
 <p>
-
-Now that <persName>Robert Spence</persName>, <persName>Bob Ward</persName>
-and <persName>Frank Fellows</persName> have resigned under
-pressure from students, the next target
-is none other than the Big Man himself,
-<persName>Wilson Elkins</persName>.
-Though many individuals have been
-harboring a desire to see the retirement
-of our distinguished president, a col­
+<cb n="1"/>
+<lb/>Now that <persName xml:id="RS">Robert Spence</persName>, <persName xml:id="BW">Bob Ward</persName>
+<lb/>and <persName xml:id="FF">Frank Fellows</persName> have resigned under
+<lb/>pressure from students, the next target
+<lb/>is none other than the Big Man himself,
+<lb/><persName xml:id="WE">Wilson Elkins</persName>.
+<lb/>Though many individuals have been
+<lb/>harboring a desire to see the retirement
+<lb/>of our distinguished president, a col­-<lb break="no"/>­
 lective effort is now under way to
-publicize Elkins' 15-year record of un­
-responsiveness to students and the mani­
-fold problems of a growing University,
-He has done much for academics and
-much for the University’s image, but
-all too little for the raison d’etre of this
-institution--the students. Remember
-them?
-Elkins’ availability is legendary, his
-morality of another age and his public
-statements a mixture of John Wayne and
-Dwight Eisenhower with a little Spiro
-Agnew thrown into the melange.
-And with the federal vindication of the
+<lb/>publicize <persName ref="WE">Elkins'</persName> 15-year record of un­-<lb break="no"/>­
+responsiveness to students and the mani­-<lb break="no"/>­
+fold problems of a growing <orgName ref="#UMD">University</orgName>,
+<lb/><persName ref="WE">He</persName> has done much for academics and
+<lb/>much for the <orgName xml:id="UMD">University’s</orgName> image, but
+<lb/>all too little for the raison d’etre of this
+<lb/><orgName ref="UMD">institution</orgName>--the students. Remember
+<lb/>them?
+<lb/><persName ref="WE">Elkins’</persName> availability is legendary, his
+<lb/>morality of another age and his public
+<lb/>statements a mixture of John Wayne and
+<lb/>Dwight Eisenhower with a little Spiro
+<lb/>Agnew thrown into the melange.
+<lb/>And with the federal vindication of the
 </p>
-</div>
-
-<div>
   <p>
-<orgName>Student Government Association’s</orgName> year­
-long declaration of institutional racism,
-further impetus has been marshalled
-behind those forces, anonymous for the
-time being, who will soon embark on a
-publicity campaign to expose Elkins’
-uselessness here.
-Much of Elkins’ problem is not sub­
-stantive, but a matter of style wiiich is
-irrelevant to the newness of modern
-life.
-In introducing Sen. Edmund Muskie
-last week, Elkins had the unfortunate
-grace to mention four times that the
-senator is a loser and that we are proud
-to have him speak here.
-Elkins noted that the length of an
-introduction is commensurate with the
-speaker’s dignity and stature. <q>“But
-this introduction will be brief,”</q> Elkins
-faux-pased.
-Perhaps Elkins, beset with all kinds
-of pressure from the student body, the
-
+    <cb n="2"/>
+<lb/><orgName xml:id="SGA">Student Government Association’s</orgName> year­
+<lb/>long declaration of institutional racism,
+<lb/>further impetus has been marshalled
+<lb/>behind those forces, anonymous for the
+<lb/>time being, who will soon embark on a
+<lb/>publicity campaign to expose <persName ref="WE">Elkins’</persName>
+<lb/>uselessness here.
+<lb/>Much of <persName ref="WE">Elkins’</persName> problem is not sub­-<lb break="no"/>­
+stantive, but a matter of style which is
+<lb/>irrelevant to the newness of modern
+<lb/>life.
+<lb/>In introducing Sen. <persName xml:id="EM">Edmund Muskie</persName>
+<lb/>last week, <persName ref="WE">Elkins</persName> had the unfortunate
+<lb/>grace to mention four times that the
+<lb/><persName ref="EM">senator</persName> is a loser and that we are proud
+<lb/>to have him speak here.
+<lb/><persName ref="WE">Elkins</persName> noted that the length of an
+<lb/>introduction is commensurate with the
+<lb/>speaker’s dignity and stature. <q>“But
+<lb/>this introduction will be brief,”</q> <persName ref="WE">Elkins</persName>
+<lb/>faux-pased.
+<lb/>Perhaps <persName ref="WE">Elkins</persName>, beset with all kinds
+<lb/>of pressure from the student body, the
 </p>
-</div>
-
-
-<div>
   <p>
-legislature and from bewildered parents,
-will And it quite appealing to resign and
-return to teaching, or take a government
-position.
-Certainly his attitudes fit right in with
-the Nixon non-administration.
-The pressures of health, too, must be
-catching up with him and that would be
-as convenient an excuse as necessary to
-get oat of the College Park loony bin.
-Whenever it is that Elkins leaves his
-beloved constituents he should remember
-that old presidents don’t die—they just
-lose their faculties.
-♦ ♦
-Speaking of presidents, the newest
-darling of the law’n’order crowd. Father
-Theodore Hesburgh of Notre Dame is
-reputed to have dented that the publish
-or perish syndrome exists at his campus.
-The way he put it, the problem is
-<q>“Publish or back to the parish,"</q>
-Ho, ho.
+    <cb n="3"/>
+<lb/>legislature and from bewildered parents,
+<lb/>will And it quite appealing to resign and
+<lb/>return to teaching, or take a government
+<lb/>position.
+<lb/>Certainly his attitudes fit right in with
+<lb/>the Nixon non-administration.
+<lb/>The pressures of health, too, must be
+<lb/>catching up with him and that would be
+<lb/>as convenient an excuse as necessary to
+<lb/>get oat of the College Park loony bin.
+<lb/>Whenever it is that <persName ref="WE">Elkins</persName> leaves his
+<lb/>beloved constituents he should remember
+<lb/>that old presidents don’t die—they just
+<lb/>lose their faculties.
+<lb/>♦ ♦
+<lb/>Speaking of presidents, the newest
+<lb/>darling of the law’n’order crowd. Father
+<lb/>Theodore Hesburgh of Notre Dame is
+<lb/>reputed to have dented that the publish
+<lb/>or perish syndrome exists at his campus.
+<lb/>The way he put it, the problem is
+<lb/><q>“Publish or back to the parish,"</q>
+<lb/>Ho, ho.
 
 </p>
 </div>

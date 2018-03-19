@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<fileDesc>
+      <titleStmt>
+        <title>BSU outbust jolts fiery Cabinet session, Digital Encoding of Diamondback February 12, 1969 article</title>
+        <author><persName xml:id="CCL">Caitlin Christian-Lamb</persName></author>
+        <respStmt>
+        <resp>Encoded by</resp><name ref="CCL">Caitlin Christian-Lamb</name></respStmt>
+
+        <respStmt>
+        <resp>Student newspapers archived and provided by</resp>
+        <orgName xml:id="UA">University Archives
+        <placeName>University of Maryland
+        <settlement>College Park</settlement>
+        <region>Maryland</region>
+        </placeName>
+        </orgName>
+        </respStmt>
+
+        <respStmt>
+        <resp>TEI template and assistance provided by</resp>
+        <persName xml:id="RV">Raffaele Viglianti</persName>
+        </respStmt>
+
+        <respStmt>
+        <resp>TEI template and assistance provided by</resp>
+        <persName xml:id="JL">Jessica Lu</persName>
+        </respStmt>
+
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher>
+          <orgName>Digital Studies in the Arts and Humanities (DSAH) at the University of Maryland</orgName>
+        </publisher>
+        <pubPlace>College Park, MD</pubPlace>
+        <date>March 15, 2018</date>
+        </publicationStmt>
+
+      <sourceDesc>
+
+        <listBibl>
+            <biblStruct>
+                <analytic>
+                    <title type="main">BSU outbust jolts fiery Cabinet session</title>
+                    <author>
+                        <persName xml:id="DL">David Lightman</persName>
+                    </author>
+                </analytic>
+                <monogr>
+                    <title level="j">The Diamondback</title>
+                    <imprint>
+                        <publisher>Maryland Media Inc.</publisher>
+                        <pubPlace>
+                            <region>College Park</region>
+                            <settlement>Maryland</settlement>
+                        </pubPlace>
+                        <date when="1969-02-12">February 12, 1969</date>
+                    </imprint>
+                    <biblScope>pages 1–3</biblScope>
+                    <biblScope unit="volume">61</biblScope>
+                    <biblScope unit="number">75</biblScope>
+                    <biblScope unit="page" from="1" to="3">1-3</biblScope>
+                </monogr>
+            </biblStruct>
+
+            <bibl>
+                <title>Exercise 1, MITH610: Critical Topics in Digital Studies</title>
+                <author>
+                    <persName ref="#CCL">Caitlin Christian-Lamb</persName>
+                </author>
+                <note>The digitized and OCR'd version of this article can be found at https://www.lib.umd.edu/univarchives/student-newspapers/id/f10a1eec-2825-48f8-a0ed-5fe15f7305d4?query=%22black%20student%22</note>
+            </bibl>
+        <bibl>
+          <title><orgName>The Diamondback</orgName></title>
+          <publisher><orgName>University of Maryland</orgName></publisher>
+          <pubPlace>College Park, MD</pubPlace>
+          <date>February 12, 1969</date>
+        </bibl>
+        </listBibl>
+        </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+      <editorialDecl>
+          <p>All typographical errors have been preserved. When possible, suggested corrections are provided. All OCR errors have been corrected without notation.</p>
+          <p>Structural formatting has been partially preserved. Column breaks, page jumps, and paragraphs have been retained, along with line breaks.</p>
+          <hyphenation eol="all">
+          <p>All end-of-line hyphenation has been regularized.</p>
+          </hyphenation>
+          </editorialDecl>
+          </encodingDesc>
+ <profileDesc>
+          <particDesc>
+              <listOrg>
+                  <org>
+                      <orgName xml:id="UMD" ref="https://lccn.loc.gov/n79054042">University of Maryland, College Park</orgName>
+                      <idno type="LCAF">n79054042</idno>
+                      <placeName>
+                          <settlement>College Park</settlement>
+                          <region>Maryland (<abbr>M.D.</abbr>)</region>
+                          <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                      </placeName>
+                  </org>
+                  <org>
+                      <orgName xml:id="BSU">Black Student Union</orgName>
+                      <placeName>
+                          <settlement>College Park</settlement>
+                          <region>Maryland (<abbr>M.D.</abbr>)</region>
+                          <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                      </placeName>
+                  </org>
+                  <org>
+                      <orgName xml:id="BS">black students at UMD in general, not necessarily in BSU</orgName>
+                      <placeName>
+                          <settlement>College Park</settlement>
+                          <region>Maryland (<abbr>M.D.</abbr>)</region>
+                          <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                      </placeName>
+                  </org>
+                  <org>
+                      <orgName xml:id="SGA">Student Government Association</orgName>
+                      <placeName>
+                          <settlement>College Park</settlement>
+                          <region>Maryland (<abbr>M.D.</abbr>)</region>
+                          <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                      </placeName>
+                    </org>
+                    <org>
+                        <orgName xml:id="SGAL">Student Government Association Legislature</orgName>
+                        <placeName>
+                            <settlement>College Park</settlement>
+                            <region>Maryland (<abbr>M.D.</abbr>)</region>
+                            <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                        </placeName>
+                      </org>
+                      <org>
+                          <orgName xml:id="SGAC">Student Government Association Cabinet</orgName>
+                          <placeName>
+                              <settlement>College Park</settlement>
+                              <region>Maryland (<abbr>M.D.</abbr>)</region>
+                              <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                          </placeName>
+                  </org>
+                  </listOrg>
+                </particDesc>
+              </profileDesc>
+
+</teiHeader>
+
+<text>
+<body>
+  <div rend="center">
+<head>BSU outburst jolts fiery Cabinet session</head>
+</div>
+
+<div rend="center">
+            <byline>By <persName ref="#DL">David Lightman</persName></byline>
+        </div>
+
+<div type="article">
+  <p>
+  <cb n="1"/>
+<lb/>Shouting <q>"we don’t have time
+<lb/>to argue with you honkies all
+<lb/>night,"</q> <orgName ref="BSU">Black Student Union</orgName>
+<lb/>members stormed out of last
+<lb/>night’s <orgName ref="SGA">Student Government
+<lb/>Association</orgName> meeting during a de-<lb break="no"/>­
+bate on whether to force the
+<lb/>cheerleading squad to accept
+<lb/>black members.
+<lb/>A bill endorsed by the <orgName ref="BSU">BSU</orgName>
+<lb/>to put two black cheerleaders
+<lb/>on the squad immediately and
+<lb/>one black male on the unit after
+</p>
+<p>
+  <cb n="2"/>
+<lb/>the spring tryouts, was later
+<lb/>passed by <orgName ref="SGAC">Cabinet</orgName>, 11-2.
+<lb/><orgName ref="BSU">BSU</orgName> member <persName xml:id="EW">Earl Wynn</persName> told
+<lb/>the joint session of <orgName ref="SGAC">Cabinet</orgName> and
+<lb/><orgName ref="SGAL">Legislature</orgName> <q>“we <orgName ref="BS">blacks</orgName> pay our
+<lb/>activity fees and if we don’t
+<lb/>get what we want we’ll draw
+<lb/>our money out of the activity
+<lb/>fund."</q>
+<lb/><persName xml:id="LR">Lynn Reichel</persName>, junior class leg-­<lb break="no"/>­
+islator, told <persName ref="EW">Wynn</persName> he was <q>“out
+<lb/>of order."</q>
+<lb/><persName ref="EW">Wynn</persName> replied <q>“come over to
+<lb/>me and I’ll show you what law
+<lb/>and order is.”</q>
+</p>
+<p>
+  <cb n="3"/>
+<lb/>The <orgName ref="BS">blacks</orgName> went into a closed
+<lb/>door meeting for an hour after
+<lb/><persName ref="EW">Wynn’s</persName> outbursts.
+<lb/><persName xml:id="BL">Bob McLeod</persName>, <orgName ref="BSU">BSU</orgName> president,
+<lb/>said the bill was what his group
+<lb/>had asked for, but said he was
+<lb/><q>“never satisfied.”</q>
+<lb/>The <orgName ref="BSU">BSU</orgName> action was one of
+<lb/>several emotional outbursts
+<lb/>during the marathon meeting.
+<lb/>An hour after the group had
+<lb/>convened, <persName xml:id="HS">Harvey Shulman</persName>, Resi-­<lb break="no"/>­­
+dence Halls Association presi­-­<lb break="no"/>­
+dent, asked to adjourn
+</p>
+<p>
+(Continued on page 3)
+</p>
+<p>
+--image--
+<figure>
+  <p>Photo by Ken Stephenson
+BLACK STUDENT Union President <persName ref="BL">Bob Mc-
+Leod</persName> presented the group’s position on the
+cheerleading issue at last night's <orgName ref="SGA">SGA</orgName> me­
+eting. <persName ref="BL">McLeod</persName> was one of several <orgName ref="BSU">BSU</orgName> of­
+ficials who walked out of the meeting.
+</p>
+<figDesc>Photograph shows four people, presumably students attending the SGA meeting. Three are seated; one is standing. The student standing is identified as <persName ref="BL">Bob McLeod</persName>.
+</figDesc>
+</figure>
+
+--end page 1 material--
+</p>
+<p>
+  <cb n="1"/>
+<lb/><persName ref="HS">Shulman</persName> was upset because an
+<lb/>amendment to the <orgName ref="SGA">SGA</orgName> constitu­-­<lb break="no"/>­
+tion to put veto power in the
+<lb/>hands of the <orgName ref="SGA">SGA</orgName> president and not
+<lb/>the <orgName ref="SGAC">Cabinet</orgName> had passed by con­
+<lb/>sent of the <orgName ref="SGAL">Legislature</orgName> but not
+<lb/><orgName ref="SGAC">Cabinet</orgName>.
+<lb/><persName ref="HS">He</persName> said he disliked having
+<lb/><orgName ref="SGAC">Cabinet’s</orgName> vote be so meaning­-­<lb break="no"/>­
+less.
+<lb/>The <orgName ref="SGAC">Cabinet</orgName> recessed to dis­-­<lb break="no"/>­
+cuss the matter, but <orgName ref="SGA">SGA</orgName> Pres­-­<lb break="no"/>­
+ident <persName xml:id="JF">Jerry Fleisher</persName> and vice
+<lb/>President <persName xml:id="SM">Susie Myerberg</persName> stay­-­<lb break="no"/>­
+ed in the meeting.
+</p>
+<p>
+  <cb n="2"/>
+<lb/><q>“There are too many important
+<lb/>things to do here now,"</q> Miss
+<lb/><persName ref="SM">Myerberg</persName> explained.
+<lb/>While the <orgName ref="SGAC">Cabinet</orgName> members
+<lb/>hassled outside. <orgName ref="SGAL">Legislature</orgName>
+<lb/>voted down a proposal that would
+<lb/>have abolished <orgName ref="SGA">SGA</orgName> until March
+<lb/>17.
+<lb/>Approval of the measure would
+<lb/>have canceled elections slated
+<lb/>for the end of this month.
+<lb/>The cheerleading debate
+<lb/>dragged on for two hours as
+<lb/>members fought over whether
+<lb/>to accept the <orgName ref="BSU">BSU</orgName> proposal or
+<lb/>the cheerleaders' resolution. The
+<lb/>cheerleader’s proposal call­-­<lb break="no"/>­
+</p>
+<p>
+  <cb n="3"/>
+ed for one male black and one
+<lb/>female black cheerleader im­-­<lb break="no"/>­
+mediately.
+<lb/><persName xml:id="DY">Diana Yingling</persName>, spokesman for
+<lb/>the cheering squad, said the
+<lb/>cheerleaders have always chosen
+<lb/>members fairly.
+<lb/>Cheerleader <persName xml:id="BB">Beth Brown</persName>, cry­-­<lb break="no"/>­
+ing as she spoke, added that in
+<lb/>last semester’s tryouts, several
+<lb/>black girls seemed qualified in
+<lb/>practice but they never returned
+<lb/>to try out.
+<lb/>As the debate continued,
+<lb/><persName ref="JF">Fleischer</persName> suddenly rose to tell
+<lb/>the body <q>“I’m sick of <orgName ref="SGA">SGA</orgName> sitting
+<lb/>on its ass.”</q>
+<lb/>He shook his fist and said that
+<lb/>If the <orgName ref="BSU">BSU's</orgName> demands were not
+<lb/>met, <q>“I have had it.”</q>
+<lb/>Before <persName ref="JF">Fleischer’s</persName> remarks,
+<lb/>Miss <persName ref="DY">Yingling</persName> said passage of
+<lb/>the bill forcing the squad to
+<lb/>accept black members was a
+<lb/>violation of the 1964 civil rights
+<lb/>act.
+<lb/><persName ref="DY">She</persName> added that the act forbids
+<lb/>segregation, and black tryouts
+<lb/>would be just that.
+
+</p>
+</div>
+</body>
+</text>
+</TEI>
