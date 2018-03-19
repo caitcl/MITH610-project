@@ -4,9 +4,36 @@
 }
 
 tei-teiHeader {
-  display: none;
+    display: none;
 }
 
 tei-supplied {
   font-style: italic;
+}
+tei-byline {
+    font-style: italic;
+}
+tei-interp {
+    font-weight: bold;
+    color: red;
+}
+tei-orig {
+    display: none;
+}
+tei-cb {
+    display: none;
+}
+
+tei-figure {
+    font-style: italic;
+}
+
+head {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20pt;
+}
+
+body {
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 12pt;
 }

@@ -75,6 +75,13 @@
                 </author>
                 <note>The digitized and OCR'd version of this article can be found at https://www.lib.umd.edu/univarchives/student-newspapers/id/15ef2cfb-614e-48bf-a99a-a6fbf97db0c0</note>
             </bibl>
+            <bibl>
+            <interpGrp resp="#CCL" type="idea">
+                  <desc>Marking up tonal differences in text, including humor and racial dog-whistles.</desc>
+                  <interp xml:id="TONE">Tone</interp>
+                  </interpGrp>
+                        </bibl>
+
         <bibl>
           <title><orgName>The Diamondback</orgName></title>
           <publisher><orgName>University of Maryland</orgName></publisher>
@@ -95,7 +102,6 @@
 <div rend="center">
             <byline>By <persName ref="#IA">Ira Allen</persName></byline>
         </div>
-
 <div>
 <p>
 <cb n="1"/>
@@ -114,13 +120,13 @@ fold problems of a growing <orgName ref="#UMD">University</orgName>,
 <lb/><persName ref="WE">He</persName> has done much for academics and
 <lb/>much for the <orgName xml:id="UMD">University’s</orgName> image, but
 <lb/>all too little for the raison d’etre of this
-<lb/><orgName ref="UMD">institution</orgName>--the students. Remember
-<lb/>them?
+<lb/><orgName ref="UMD">institution</orgName>--the students. <interp ana="#TONE">Remember</interp>
+<lb/><interp ana="#TONE">them?</interp>
 <lb/><persName ref="WE">Elkins’</persName> availability is legendary, his
-<lb/>morality of another age and his public
-<lb/>statements a mixture of John Wayne and
-<lb/>Dwight Eisenhower with a little Spiro
-<lb/>Agnew thrown into the melange.
+<lb/><interp ana="#TONE">morality of another age and his public</interp>
+<lb/><interp ana="#TONE">statements a mixture of John Wayne and</interp>
+<lb/><interp ana="#TONE">Dwight Eisenhower with a little Spiro</interp>
+<lb/><interp ana="#TONE">Agnew thrown into the melange.</interp>
 <lb/>And with the federal vindication of the
 </p>
   <p>
@@ -137,8 +143,8 @@ stantive, but a matter of style which is
 <lb/>irrelevant to the newness of modern
 <lb/>life.
 <lb/>In introducing Sen. <persName xml:id="EM">Edmund Muskie</persName>
-<lb/>last week, <persName ref="WE">Elkins</persName> had the unfortunate
-<lb/>grace to mention four times that the
+<lb/>last week, <persName ref="WE">Elkins</persName> had the <interp ana="#TONE">unfortunate</interp>
+<lb/><interp ana="#TONE">grace</interp> to mention four times that the
 <lb/><persName ref="EM">senator</persName> is a loser and that we are proud
 <lb/>to have him speak here.
 <lb/><persName ref="WE">Elkins</persName> noted that the length of an
@@ -155,16 +161,16 @@ stantive, but a matter of style which is
 <lb/>will And it quite appealing to resign and
 <lb/>return to teaching, or take a government
 <lb/>position.
-<lb/>Certainly his attitudes fit right in with
-<lb/>the Nixon non-administration.
+<lb/><interp ana="#TONE">Certainly his attitudes fit right in with</interp>
+<lb/><interp ana="#TONE">the Nixon non-administration.</interp>
 <lb/>The pressures of health, too, must be
 <lb/>catching up with him and that would be
 <lb/>as convenient an excuse as necessary to
-<lb/>get oat of the College Park loony bin.
+<lb/>get out of <interp ana="#TONE">the College Park loony bin.</interp>
 <lb/>Whenever it is that <persName ref="WE">Elkins</persName> leaves his
 <lb/>beloved constituents he should remember
-<lb/>that old presidents don’t die—they just
-<lb/>lose their faculties.
+<lb/>that <interp ana="#TONE">old presidents don’t die—they just</interp>
+<lb/><interp ana="#TONE">lose their faculties.</interp>
 <lb/>♦ ♦
 <lb/>Speaking of presidents, the newest
 <lb/>darling of the law’n’order crowd. Father
@@ -172,7 +178,7 @@ stantive, but a matter of style which is
 <lb/>reputed to have dented that the publish
 <lb/>or perish syndrome exists at his campus.
 <lb/>The way he put it, the problem is
-<lb/><q>“Publish or back to the parish,"</q>
+<lb/><q><interp ana="#TONE">“Publish or back to the parish,"</interp></q>
 <lb/>Ho, ho.
 
 </p>

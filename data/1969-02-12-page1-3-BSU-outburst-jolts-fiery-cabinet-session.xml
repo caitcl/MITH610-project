@@ -8,6 +8,7 @@
       <titleStmt>
         <title>BSU outbust jolts fiery Cabinet session, Digital Encoding of Diamondback February 12, 1969 article</title>
         <author><persName xml:id="CCL">Caitlin Christian-Lamb</persName></author>
+
         <respStmt>
         <resp>Encoded by</resp><name ref="CCL">Caitlin Christian-Lamb</name></respStmt>
 
@@ -81,13 +82,19 @@
           <pubPlace>College Park, MD</pubPlace>
           <date>February 12, 1969</date>
         </bibl>
+        <bibl>
+        <interpGrp resp="#CCL" type="idea">
+              <desc>Marking up tonal differences in text, including humor and racial dog-whistles.</desc>
+              <interp xml:id="TONE">Tone</interp>
+              </interpGrp>
+                    </bibl>
         </listBibl>
         </sourceDesc>
       </fileDesc>
 
       <encodingDesc>
       <editorialDecl>
-          <p>All typographical errors have been preserved. When possible, suggested corrections are provided. All OCR errors have been corrected without notation.</p>
+          <p>All typographical errors have been preserved. All OCR errors have been corrected without notation.</p>
           <p>Structural formatting has been partially preserved. Column breaks, page jumps, and paragraphs have been retained, along with line breaks.</p>
           <hyphenation eol="all">
           <p>All end-of-line hyphenation has been regularized.</p>
@@ -165,10 +172,10 @@
 <div type="article">
   <p>
   <cb n="1"/>
-<lb/>Shouting <q>"we don’t have time
+<lb/><interp ana="#TONE">Shouting</interp> <q>we don’t have time
 <lb/>to argue with you honkies all
 <lb/>night,"</q> <orgName ref="BSU">Black Student Union</orgName>
-<lb/>members stormed out of last
+<lb/>members <interp ana="#TONE">stormed</interp> out of last
 <lb/>night’s <orgName ref="SGA">Student Government
 <lb/>Association</orgName> meeting during a de-<lb break="no"/>­
 bate on whether to force the
@@ -177,8 +184,7 @@ bate on whether to force the
 <lb/>A bill endorsed by the <orgName ref="BSU">BSU</orgName>
 <lb/>to put two black cheerleaders
 <lb/>on the squad immediately and
-<lb/>one black male on the unit after
-</p>
+<lb/>one black male on the unit after</p>
 <p>
   <cb n="2"/>
 <lb/>the spring tryouts, was later
@@ -193,49 +199,43 @@ bate on whether to force the
 <lb/><persName xml:id="LR">Lynn Reichel</persName>, junior class leg-­<lb break="no"/>­
 islator, told <persName ref="EW">Wynn</persName> he was <q>“out
 <lb/>of order."</q>
-<lb/><persName ref="EW">Wynn</persName> replied <q>“come over to
-<lb/>me and I’ll show you what law
-<lb/>and order is.”</q>
-</p>
+<lb/><persName ref="EW">Wynn</persName> replied <q><interp ana="#TONE">“come over to</interp>
+<lb/><interp ana="#TONE">me and I’ll show you what law</interp>
+<lb/><interp ana="#TONE">and order is.”</interp></q></p>
 <p>
   <cb n="3"/>
 <lb/>The <orgName ref="BS">blacks</orgName> went into a closed
 <lb/>door meeting for an hour after
-<lb/><persName ref="EW">Wynn’s</persName> outbursts.
+<lb/><persName ref="EW">Wynn’s</persName> <interp ana="#TONE">outbursts</interp>.
 <lb/><persName xml:id="BL">Bob McLeod</persName>, <orgName ref="BSU">BSU</orgName> president,
 <lb/>said the bill was what his group
 <lb/>had asked for, but said he was
-<lb/><q>“never satisfied.”</q>
-<lb/>The <orgName ref="BSU">BSU</orgName> action was one of
-<lb/>several emotional outbursts
+<lb/><q><interp ana="#TONE">“never satisfied.”</interp></q>
+<lb/>The <orgName ref="BSU">BSU</orgName> <interp ana="#TONE">action was one of</interp>
+<lb/><interp ana="#TONE">several emotional outbursts</interp>
 <lb/>during the marathon meeting.
 <lb/>An hour after the group had
 <lb/>convened, <persName xml:id="HS">Harvey Shulman</persName>, Resi-­<lb break="no"/>­­
 dence Halls Association presi­-­<lb break="no"/>­
-dent, asked to adjourn
-</p>
+dent, asked to adjourn</p>
 <p>
-(Continued on page 3)
-</p>
+(Continued on page 3)</p>
 <p>
---image--
 <figure>
-  <p>Photo by Ken Stephenson
-BLACK STUDENT Union President <persName ref="BL">Bob Mc-
+  <p><lb/>Photo by Ken Stephenson</p>
+  <p>
+<lb/>BLACK STUDENT Union President <persName ref="BL">Bob Mc-­<lb break="no"/>­
 Leod</persName> presented the group’s position on the
-cheerleading issue at last night's <orgName ref="SGA">SGA</orgName> me­
-eting. <persName ref="BL">McLeod</persName> was one of several <orgName ref="BSU">BSU</orgName> of­
-ficials who walked out of the meeting.
-</p>
-<figDesc>Photograph shows four people, presumably students attending the SGA meeting. Three are seated; one is standing. The student standing is identified as <persName ref="BL">Bob McLeod</persName>.
+<lb/>cheerleading issue at last night's <orgName ref="SGA">SGA</orgName> me­-­<lb break="no"/>­
+eting. <persName ref="BL">McLeod</persName> was one of several <orgName ref="BSU">BSU</orgName> of­-­<lb break="no"/>­
+ficials who walked out of the meeting.</p>
+<figDesc>[Photograph shows four people, presumably students attending the SGA meeting. Three are seated; one is standing. The student standing is identified as <persName ref="BL">Bob McLeod</persName>.]
 </figDesc>
-</figure>
+</figure></p>
 
---end page 1 material--
-</p>
 <p>
   <cb n="1"/>
-<lb/><persName ref="HS">Shulman</persName> was upset because an
+<lb/><persName ref="HS">Shulman</persName> was <interp ana="#TONE">upset</interp> because an
 <lb/>amendment to the <orgName ref="SGA">SGA</orgName> constitu­-­<lb break="no"/>­
 tion to put veto power in the
 <lb/>hands of the <orgName ref="SGA">SGA</orgName> president and not
@@ -249,15 +249,14 @@ less.
 cuss the matter, but <orgName ref="SGA">SGA</orgName> Pres­-­<lb break="no"/>­
 ident <persName xml:id="JF">Jerry Fleisher</persName> and vice
 <lb/>President <persName xml:id="SM">Susie Myerberg</persName> stay­-­<lb break="no"/>­
-ed in the meeting.
-</p>
+ed in the meeting.</p>
 <p>
   <cb n="2"/>
 <lb/><q>“There are too many important
 <lb/>things to do here now,"</q> Miss
 <lb/><persName ref="SM">Myerberg</persName> explained.
 <lb/>While the <orgName ref="SGAC">Cabinet</orgName> members
-<lb/>hassled outside. <orgName ref="SGAL">Legislature</orgName>
+<lb/><interp ana="#TONE">hassled</interp> outside. <orgName ref="SGAL">Legislature</orgName>
 <lb/>voted down a proposal that would
 <lb/>have abolished <orgName ref="SGA">SGA</orgName> until March
 <lb/>17.
@@ -266,11 +265,10 @@ ed in the meeting.
 <lb/>for the end of this month.
 <lb/>The cheerleading debate
 <lb/>dragged on for two hours as
-<lb/>members fought over whether
+<lb/>members <interp ana="#TONE">fought</interp> over whether
 <lb/>to accept the <orgName ref="BSU">BSU</orgName> proposal or
 <lb/>the cheerleaders' resolution. The
-<lb/>cheerleader’s proposal call­-­<lb break="no"/>­
-</p>
+<lb/>cheerleader’s proposal call­-­<lb break="no"/>­</p>
 <p>
   <cb n="3"/>
 ed for one male black and one
@@ -280,8 +278,8 @@ mediately.
 <lb/>the cheering squad, said the
 <lb/>cheerleaders have always chosen
 <lb/>members fairly.
-<lb/>Cheerleader <persName xml:id="BB">Beth Brown</persName>, cry­-­<lb break="no"/>­
-ing as she spoke, added that in
+<lb/>Cheerleader <persName xml:id="BB">Beth Brown</persName>, <interp ana="#TONE">cry­-­</interp><lb break="no"/>­
+<interp ana="#TONE">ing as she spoke</interp>, added that in
 <lb/>last semester’s tryouts, several
 <lb/>black girls seemed qualified in
 <lb/>practice but they never returned
@@ -290,7 +288,7 @@ ing as she spoke, added that in
 <lb/><persName ref="JF">Fleischer</persName> suddenly rose to tell
 <lb/>the body <q>“I’m sick of <orgName ref="SGA">SGA</orgName> sitting
 <lb/>on its ass.”</q>
-<lb/>He shook his fist and said that
+<lb/><interp ana="#TONE">He shook his fist</interp> and said that
 <lb/>If the <orgName ref="BSU">BSU's</orgName> demands were not
 <lb/>met, <q>“I have had it.”</q>
 <lb/>Before <persName ref="JF">Fleischer’s</persName> remarks,
@@ -299,10 +297,9 @@ ing as she spoke, added that in
 <lb/>accept black members was a
 <lb/>violation of the 1964 civil rights
 <lb/>act.
-<lb/><persName ref="DY">She</persName> added that the act forbids
-<lb/>segregation, and black tryouts
-<lb/>would be just that.
-
+<lb/><persName ref="DY">She</persName> <interp ana="#TONE">added that the act forbids</interp>
+<lb/><interp ana="#TONE">segregation, and black tryouts</interp>
+<lb/><interp ana="#TONE">would be just that.</interp>
 </p>
 </div>
 </body>
